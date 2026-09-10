@@ -60,7 +60,7 @@
     {
       "id": "bb66972c-36d0-4a47-85ef-5dfc7319cf8a",
       "email": "abhii060606@gmail.com",
-      "passwordHash": "$2b$12$f1P3M6aKDhjy2aEUokbmYuysj1z3BC6ohOQUuOiRniWEpTqwqlbMS",
+      "passwordHash": "$2b$10$zDXeRO4zsa7SAl2.6ChyHOt8qP61wGBzNtxbpYV1Gcv4a6EkOnSuC",
       "role": "PATIENT",
       "patientId": "097588cc-7c85-48dd-b659-3c33ed86e49b"
     },
@@ -638,6 +638,71 @@
         "Main problem: Fever (102°F)\nSymptoms: Fever, throat pain, headache\nDuration: 2 days (symptoms started together with fever)\nSeverity: Fever measured at 102°F; no medication taken yet\nOther symptoms: No cough, cold, or body ache reported\nExisting conditions: Not captured\nCurrent medicines: None taken\nAllergies: Not captured"
       ],
       "createdAt": "2026-09-09T18:51:15.426Z"
+    },
+    {
+      "id": "7934adc8-a6b6-4497-92e0-b91bea36f1ae",
+      "patientId": "3723f279-99d5-4004-9cff-4cd472ebd8ef",
+      "summary": "hi",
+      "conversation": [
+        "hi",
+        "Assistant: Hello! I'm here to help you prepare for your upcoming medical consultation. To get started, could you tell me what brings you in today? Please describe your main concern or the reason for your visit.",
+        "fever around 102degree and body pain",
+        "Assistant: Thank you for sharing that. A fever of 102°F with body aches can be quite uncomfortable. To help organize the details for your visit, could you tell me how long you've had these symptoms—did they start today, or have they been going on for a few days?"
+      ],
+      "createdAt": "2026-09-10T15:52:41.178Z"
+    },
+    {
+      "id": "dc73d1a0-9912-495e-8e6a-0bddcd606de0",
+      "patientId": "3723f279-99d5-4004-9cff-4cd472ebd8ef",
+      "summary": "Here is a summary of the patient's conversation:\n\n- **Main problem:** Fever and body pain.\n- **Symptoms:** Fever (reported at 102°F) and body pain.\n- **Duration:** Not captured (the assistant asked how long the symptoms have lasted, but the patient has not yet answered).\n- **Severity:** Fever is specifically reported as 102°F; overall severity not otherwise stated.\n- **Other symptoms:** Not captured.\n- **Existing conditions:** Not captured.\n- **Current medicines:** Not captured.\n- **Allergies:** Not captured.",
+      "conversation": [
+        "hi",
+        "Assistant: Hello! I'm here to help you prepare for your upcoming medical consultation. To get started, could you tell me what brings you in today? Please describe your main concern or the reason for your visit.",
+        "fever around 102degree and body pain",
+        "Assistant: Thank you for sharing that. A fever of 102°F with body aches can be quite uncomfortable. To help organize the details for your visit, could you tell me how long you've had these symptoms—did they start today, or have they been going on for a few days?",
+        "hi"
+      ],
+      "createdAt": "2026-09-10T15:52:57.705Z"
+    },
+    {
+      "id": "fd6bfc3b-33f4-4c81-8d7a-9dc1e5d6522c",
+      "patientId": "3723f279-99d5-4004-9cff-4cd472ebd8ef",
+      "summary": "- **Main problem:** Fever and body pain.\n- **Symptoms:** Fever (reported at 102°F) and body pain.\n- **Duration:** Not captured (the patient has not yet answered how long symptoms have lasted).\n- **Severity:** Fever reported at 102°F; overall severity otherwise not stated.\n- **Other symptoms:** Not captured.\n- **Existing conditions:** Not captured.\n- **Current medicines:** Not captured.\n- **Allergies:** Not captured.",
+      "conversation": [
+        "hi",
+        "Assistant: Hello! I'm here to help you prepare for your upcoming medical consultation. To get started, could you tell me what brings you in today? Please describe your main concern or the reason for your visit.",
+        "fever around 102degree and body pain",
+        "Assistant: Thank you for sharing that. A fever of 102°F with body aches can be quite uncomfortable. To help organize the details for your visit, could you tell me how long you've had these symptoms—did they start today, or have they been going on for a few days?",
+        "hi",
+        "Here is a summary of the patient's conversation:\n\n- **Main problem:** Fever and body pain.\n- **Symptoms:** Fever (reported at 102°F) and body pain.\n- **Duration:** Not captured (the assistant asked how long the symptoms have lasted, but the patient has not yet answered).\n- **Severity:** Fever is specifically reported as 102°F; overall severity not otherwise stated.\n- **Other symptoms:** Not captured.\n- **Existing conditions:** Not captured.\n- **Current medicines:** Not captured.\n- **Allergies:** Not captured."
+      ],
+      "createdAt": "2026-09-10T15:52:59.779Z"
+    },
+    {
+      "id": "972a125f-b592-4aa7-90e9-0ac1713f50af",
+      "patientId": "3723f279-99d5-4004-9cff-4cd472ebd8ef",
+      "summary": "Here is a summary of the patient's conversation:\n\n- **Main problem:** Fever and body pain (reason for visit).\n- **Symptoms:** Fever (reported at 102°F), body pain.\n- **Duration:** Not captured (patient did not answer the question about how long symptoms have lasted).\n- **Severity:** Fever reported at 102°F (patient did not explicitly state overall severity).\n- **Other symptoms:** Not captured.\n- **Existing conditions:** Not captured.\n- **Current medicines:** Not captured.\n- **Allergies:** Not captured.",
+      "conversation": [
+        "hi",
+        "Assistant: Hello! I'm here to help you prepare for your upcoming medical consultation. To get started, could you tell me what brings you in today? Please describe your main concern or the reason for your visit.",
+        "fever around 102degree and body pain",
+        "Assistant: Thank you for sharing that. A fever of 102°F with body aches can be quite uncomfortable. To help organize the details for your visit, could you tell me how long you've had these symptoms—did they start today, or have they been going on for a few days?",
+        "hi"
+      ],
+      "createdAt": "2026-09-10T15:53:01.442Z"
+    },
+    {
+      "id": "f0faa317-4ac4-4653-a1f0-4a62175f6964",
+      "patientId": "3723f279-99d5-4004-9cff-4cd472ebd8ef",
+      "summary": "Here is a summary of the patient's conversation:\n\n- **Main problem:** Fever and body pain.\n- **Symptoms:** Fever (measured at 102°F) and body pain.\n- **Duration:** Not captured (the patient did not answer the question about how long symptoms have lasted).\n- **Severity:** Fever measured at 102°F; no subjective severity level stated.\n- **Other symptoms:** Not captured.\n- **Existing conditions:** Not captured.\n- **Current medicines:** Not captured.\n- **Allergies:** Not captured.",
+      "conversation": [
+        "hi",
+        "Assistant: Hello! I'm here to help you prepare for your upcoming medical consultation. To get started, could you tell me what brings you in today? Please describe your main concern or the reason for your visit.",
+        "fever around 102degree and body pain",
+        "Assistant: Thank you for sharing that. A fever of 102°F with body aches can be quite uncomfortable. To help organize the details for your visit, could you tell me how long you've had these symptoms—did they start today, or have they been going on for a few days?",
+        "hi"
+      ],
+      "createdAt": "2026-09-10T15:53:05.439Z"
     }
   ]
 }

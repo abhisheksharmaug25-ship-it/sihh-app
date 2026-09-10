@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
-import { promises as fs } from "node:fs";
 import path from "node:path";
 import { selectedPatient } from "@/lib/patient-context";
-import { id, readDb, uploadDir, writeDb, type DocumentCategory } from "@/lib/store";
+import { deleteDocumentFile, saveDocumentFile } from "@/lib/storage";
+import { id, readDb, writeDb, type DocumentCategory } from "@/lib/store";
 
 const allowed = new Map([["application/pdf", "OTHER"], ["image/jpeg", "OTHER"], ["image/png", "OTHER"]]);
 const categories = new Set(["PRESCRIPTION", "LAB_REPORT", "MEDICAL_REPORT", "OTHER"]);
@@ -24,7 +24,7 @@ export async function POST(request: Request) {
   const documentId = id();
   const extension = path.extname(file.name).toLowerCase() || ".bin";
   const storedName = `${documentId}${extension}`;
-  await fs.writeFile(path.join(uploadDir, storedName), Buffer.from(await file.arrayBuffer()));
+  await saveDocumentFile(storedName, Buffer.from(await file.arrayBuffer()), file.type);
   const db = await readDb();
   const document = { id: documentId, patientId: context.patient.id, category: (categories.has(String(form.get("category"))) ? String(form.get("category")) : allowed.get(file.type)) as DocumentCategory, fileName: file.name, storedName, mimeType: file.type, size: file.size, createdAt: new Date().toISOString() };
   db.documents.push(document);
@@ -39,7 +39,7 @@ export async function DELETE(request: Request) {
   const db = await readDb();
   const document = db.documents.find((item) => item.id === documentId && item.patientId === context.patient.id);
   if (!document) return NextResponse.json({ error: "Document not found." }, { status: 404 });
-  await fs.rm(path.join(uploadDir, document.storedName), { force: true });
+  await deleteDocumentFile(document.storedName);
   db.documents = db.documents.filter((item) => item.id !== document.id);
   await writeDb(db);
   return NextResponse.json({ ok: true });
