@@ -5,11 +5,11 @@ Smart India Hackathon 2026 submission.
 ## 1. Project Information
 
 - **Project Title:** MedVault — Connected Care
-- **Problem Statement ID:** _(add PS ID)_
-- **Problem Statement Title:** _(add PS title)_
+- **Problem Statement ID:** SIH-26047
+- **Problem Statement Title:** patient case taking software
 - **Theme:** MedTech / BioTech / HealthTech
-- **Team Name:** _(add team name)_
-- **Live Demo:** https://medvault-cyan.vercel.app
+- **Team Name:** SwayasthaID
+- **Live Demo:** 
 
 ## 2. Problem Statement
 
@@ -111,7 +111,7 @@ Required environment variables (see `.env.example`):
 
 ```bash
 npm run dev
-# open http://localhost:3000
+
 ```
 
 Production build:
