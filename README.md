@@ -78,7 +78,14 @@ See [submission/DEMO.md](submission/DEMO.md).
 
 ## 10. Screenshots
 
-See [assets/screenshots/](assets/screenshots/).
+| Screenshot | |
+| --- | --- |
+| Dashboard | ![Screenshot 1](assets/screenshots/screenshot-1.png) |
+| Health Analytics | ![Screenshot 2](assets/screenshots/screenshot-2.png) |
+| Medicines | ![Screenshot 3](assets/screenshots/screenshot-3.png) |
+| Document Vault | ![Screenshot 4](assets/screenshots/screenshot-4.png) |
+
+More in [assets/screenshots/](assets/screenshots/).
 
 ## 11. Installation
 
