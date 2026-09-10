@@ -1,15 +1,8 @@
 # Final Presentation
 
-**Status:** Pending — add the final SIH presentation here.
-
-## Options
-
-1. If the PPT is small enough, commit it to this folder (e.g. `submission/MedVault-Final.pptx`).
-2. If it is too large for GitHub, upload to Google Drive/OneDrive and paste the accessible viewer link below.
-
 ## Link
 
-- Presentation: _(add link)_
+- Presentation: https://drive.google.com/drive/folders/15mRyu_LOc3SCYNvyhdpcm3XPER5iZ6kn?usp=sharing
 
 ## Required content checklist
 

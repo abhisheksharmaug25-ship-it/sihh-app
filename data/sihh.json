@@ -749,6 +749,20 @@
         "hi"
       ],
       "createdAt": "2026-09-10T15:53:05.439Z"
+    },
+    {
+      "id": "09fae0de-42f8-4605-95b3-ec2221ca9727",
+      "patientId": "3723f279-99d5-4004-9cff-4cd472ebd8ef",
+      "summary": "Main problem: Fever and body pain.\n\nSymptoms: Fever (102°F), body pain.\n\nDuration: Not captured (the patient has not yet answered how long the fever has lasted).\n\nSeverity: Fever is 102°F (significant); body pain severity not specified.\n\nOther symptoms: Not captured.\n\nExisting conditions: Not captured.\n\nCurrent medicines: Not captured.\n\nAllergies: Not captured.",
+      "conversation": [
+        "hi",
+        "Assistant: Hello! I'm here to help you prepare for your upcoming medical consultation. To get started, could you tell me what symptoms or concerns are bringing you in today?",
+        "fever 102",
+        "Assistant: Thank you for sharing that. A fever of 102°F is significant. How long have you had the fever?",
+        "body pain",
+        "Assistant: Thank you for letting me know about the body pain. To help me understand your situation better, how long have you had the fever?"
+      ],
+      "createdAt": "2026-09-10T17:58:31.222Z"
     }
   ]
 }

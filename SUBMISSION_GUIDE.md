@@ -24,7 +24,7 @@ Before submitting the GitHub repository link, verify each item:
 
 ## Deployment
 
-- [ ] Live demo URL works (https://medvault-cyan.vercel.app)
+- [ ] Live demo URL works 
 - [ ] Register/login flow works on the deployed site
 - [ ] Document upload works (Vercel Blob connected)
 

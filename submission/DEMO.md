@@ -1,12 +1,8 @@
 # Demo Video
 
-**Status:** Pending — demo video is optional but recommended.
-
-Add the YouTube/Google Drive link here once recorded.
-
 ## Link
 
-- Demo video: _(add link)_
+- Demo video: https://drive.google.com/file/d/14NDHK9-Cw8AL_gin6ILaQqQTYn6g2bYm/view?usp=sharing
 
 ## Suggested demo flow
 
