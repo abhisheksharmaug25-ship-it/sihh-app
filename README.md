@@ -64,7 +64,6 @@ sihh-app/
 ├── submission/           # Final PPT and demo video links
 ├── prisma/               # Database schema
 ├── data/                 # Local JSON data store (demo)
-├── SUBMISSION_GUIDE.md   # SIH submission checklist
 └── LICENSE
 ```
 
