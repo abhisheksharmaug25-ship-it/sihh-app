@@ -1,86 +1,133 @@
-# 🏥 MedVault — Connected Care
+# MedVault — Connected Care
 
-A hospital-centric digital patient medical record system built for **Smart India Hackathon**. MedVault lets patients and families manage health records, track vitals, store medical documents, and prepare for doctor consultations with an AI assistant.
+Smart India Hackathon 2026 submission.
 
-**Live demo:** https://medvault-cyan.vercel.app
+## 1. Project Information
 
-## ✨ Features
+- **Project Title:** MedVault — Connected Care
+- **Problem Statement ID:** _(add PS ID)_
+- **Problem Statement Title:** _(add PS title)_
+- **Theme:** MedTech / BioTech / HealthTech
+- **Team Name:** _(add team name)_
+- **Live Demo:** https://medvault-cyan.vercel.app
+
+## 2. Problem Statement
+
+Healthcare data is fragmented across paper prescriptions, lab reports, and multiple family members' records. Patients arrive at consultations without a consolidated medical history, chronic-condition readings (sugar, BP) are tracked informally or not at all, and medicine schedules are missed. Doctors lose consultation time reconstructing history instead of treating.
+
+## 3. Proposed Solution
+
+MedVault is a family-centric digital health hub that consolidates:
+
+- A secure **document vault** for prescriptions, lab reports, and scans
+- **Health analytics** for chronic-condition readings with trend visualization
+- A **medicine tracker** with schedules
+- A **medical history timeline** per family member
+- An **AI assistant** that answers health-record questions and generates a structured **pre-consultation summary** the patient can share with the doctor before the visit
+
+## 4. Key Features
 
 | Feature | Description |
-|---|---|
-| 🔐 Secure Auth | Register/login with bcrypt-hashed passwords and session cookies |
-| 👨‍👩‍👧 Family Profiles | Manage health records for the whole family under one account |
-| 📊 Health Analytics | Track sugar, BP, weight, pulse & temperature with trends |
-| 💊 Medicine Tracker | Medicine schedules with dosage, frequency & instructions |
-| 📄 Document Vault | Upload & view PDFs/images (prescriptions, lab reports) |
-| 🤖 AI Assistant | Pre-consultation chat that organizes symptoms into a structured summary |
-| 📜 Medical History | Timeline of conditions, events & attachments |
+| --- | --- |
+| Family profiles | One account manages multiple family members |
+| Document vault | Upload, categorize, and download medical documents (PDF/images) |
+| Health analytics | Log sugar/BP/weight readings and view trends |
+| Medicine tracker | Track medicines, dosage, and schedules |
+| Medical history | Timeline of conditions, surgeries, allergies |
+| AI assistant | Chat over your records; generates pre-consultation summaries |
+| Secure auth | bcrypt password hashing, httpOnly session cookies |
 
-## 🛠️ Tech Stack
+## 5. Technology Stack
 
-- **Frontend:** Next.js 16 (App Router, Turbopack), React 19, TypeScript, Tailwind CSS 4, lucide-react
-- **Backend:** Next.js API Routes (REST), bcryptjs, session auth
-- **AI:** OpenAI-compatible LLM API (`gpt-4o-mini` default) for the health assistant
-- **Storage:** Vercel Blob (production) / local filesystem (dev)
-- **Database:** JSON store (Prisma schema ready for migration)
+- **Frontend:** Next.js 16 (App Router), React 19, Tailwind CSS 4, lucide-react
+- **Backend:** Next.js API routes (REST)
+- **Database:** Prisma 7 (schema-ready; JSON file store for demo)
+- **File storage:** Vercel Blob (production) / local uploads (dev)
+- **AI:** OpenAI-compatible LLM API (gpt-4o-mini default)
+- **Auth:** bcryptjs + signed httpOnly session cookie
 - **Hosting:** Vercel
 
-## 🚀 Getting Started
+## 6. Architecture
+
+See [docs/architecture.md](docs/architecture.md) for the full architecture diagram and component breakdown.
+
+## 7. Repository Structure
+
+```
+sihh-app/
+├── src/                  # Application source code
+│   ├── app/              # Next.js App Router pages + API routes
+│   ├── components/       # React components
+│   └── lib/              # auth, store, storage, prisma helpers
+├── docs/                 # Architecture and design docs
+├── assets/screenshots/   # Application screenshots
+├── submission/           # Final PPT and demo video links
+├── prisma/               # Database schema
+├── data/                 # Local JSON data store (demo)
+├── SUBMISSION_GUIDE.md   # SIH submission checklist
+└── LICENSE
+```
+
+## 8. Final Presentation
+
+See [submission/PRESENTATION.md](submission/PRESENTATION.md).
+
+## 9. Demo Video
+
+See [submission/DEMO.md](submission/DEMO.md).
+
+## 10. Screenshots
+
+See [assets/screenshots/](assets/screenshots/).
+
+## 11. Installation
 
 ```bash
 git clone https://github.com/abhisheksharmaug25-ship-it/sihh-app.git
 cd sihh-app
 npm install
+cp .env.example .env   # fill in values
+```
+
+Required environment variables (see `.env.example`):
+
+| Variable | Purpose |
+| --- | --- |
+| `SESSION_SECRET` | Random secret for session signing |
+| `LLM_API_KEY` | API key for the LLM provider |
+| `LLM_BASE_URL` | LLM API base URL |
+| `LLM_MODEL` | Model name (e.g. `gpt-4o-mini`) |
+| `BLOB_READ_WRITE_TOKEN` | Vercel Blob token (production uploads) |
+| `DATABASE_URL` | Database connection string |
+
+## 12. Run
+
+```bash
 npm run dev
+# open http://localhost:3000
 ```
 
-Open http://localhost:3000
+Production build:
 
-### Environment Variables
-
-Create a `.env` file (see `.env.example`):
-
-| Variable | Required | Description |
-|---|---|---|
-| `DATABASE_URL` | No | Prisma DB URL (JSON store used by default) |
-| `LLM_API_KEY` | No | OpenAI-compatible API key for the AI assistant |
-| `LLM_BASE_URL` | No | Custom LLM provider base URL |
-| `LLM_MODEL` | No | Model name (default: `gpt-4o-mini`) |
-| `BLOB_READ_WRITE_TOKEN` | No | Vercel Blob token for file storage on Vercel |
-
-## 📡 REST API
-
-| Endpoint | Methods | Description |
-|---|---|---|
-| `/api/auth/register` | POST | Create account |
-| `/api/auth/login` | POST | Login |
-| `/api/auth/logout` | POST | Logout |
-| `/api/me` | GET | Current user |
-| `/api/profile` | GET, PUT | Patient profile |
-| `/api/patients` | GET, POST | Patient records |
-| `/api/family` | GET, POST | Family members |
-| `/api/health/readings` | GET, POST | Vitals readings |
-| `/api/medicines` | GET, POST, PUT, DELETE | Medicine tracker |
-| `/api/documents` | GET, POST, DELETE | Document vault |
-| `/api/documents/[id]` | GET | View/download document |
-| `/api/documents/analyze` | POST | AI document analysis |
-| `/api/assistant` | POST | AI health assistant |
-| `/api/consultations` | GET, POST | Consultations |
-| `/api/history` | GET, POST, DELETE | Medical history |
-
-## 📁 Project Structure
-
-```
-src/
-├── app/
-│   ├── api/            # REST API routes
-│   ├── analytics/      # Health analytics page
-│   ├── medicines/      # Medicine tracker page
-│   └── page.tsx        # Main dashboard
-├── components/         # React components
-└── lib/                # Auth, storage, data store, helpers
+```bash
+npm run build && npm start
 ```
 
-## 📜 License
+## 13. Future Scope
 
-MIT
+- Migrate the demo JSON store to managed Postgres via Prisma
+- OCR + AI extraction of data from uploaded prescriptions
+- Doctor-facing portal for shared pre-consultation summaries
+- Medicine reminders via WhatsApp/SMS
+- ABHA (Ayushman Bharat) health ID integration
+- Mobile app (React Native)
+
+## Team
+
+| Name | Role | GitHub |
+| --- | --- | --- |
+| _(add member)_ | _(role)_ | _(handle)_ |
+
+## License
+
+MIT — see [LICENSE](LICENSE).
