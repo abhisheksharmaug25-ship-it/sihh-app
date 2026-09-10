@@ -1,0 +1,643 @@
+{
+  "accounts": [
+    {
+      "id": "c3d4fd60-5943-469c-ba37-3d1b1c2373aa",
+      "accountNumber": "ACC-933801",
+      "holderUserId": "29379ea2-27de-43ae-9225-c3d55a504ab2",
+      "createdAt": "2026-09-08T14:48:01.110Z"
+    },
+    {
+      "id": "fdd209a5-df15-4529-b5e2-943ae473d0f5",
+      "accountNumber": "ACC-523198",
+      "holderUserId": "f58ab4f2-e92b-4073-8272-a06b26c8268f",
+      "createdAt": "2026-09-08T14:51:13.431Z"
+    },
+    {
+      "id": "e591293b-5265-4830-8d69-23ed94646529",
+      "accountNumber": "ACC-820213",
+      "holderUserId": "a7dd08cc-1c6c-4dcb-895d-4c7ec0f67fc9",
+      "createdAt": "2026-09-08T16:03:07.821Z"
+    },
+    {
+      "id": "9d1ede89-f23e-4540-b98f-5d868d119ba5",
+      "accountNumber": "ACC-401008",
+      "holderUserId": "a059eed2-fbcc-4b42-b652-4744de7cc318",
+      "createdAt": "2026-09-08T16:03:22.696Z"
+    },
+    {
+      "id": "3f813f39-0e75-47d9-9f12-32b98ba8c6ed",
+      "accountNumber": "ACC-422801",
+      "holderUserId": "407c4d91-2b93-4e28-aea6-ebb449585623",
+      "createdAt": "2026-09-08T16:03:33.188Z"
+    },
+    {
+      "id": "d931dc48-d04a-4620-81dd-b5cfa755994c",
+      "accountNumber": "ACC-254376",
+      "holderUserId": "97ec80d5-2f01-4c2a-aa13-8cbe29d10f24",
+      "createdAt": "2026-09-08T16:03:49.836Z"
+    },
+    {
+      "id": "f2a6f4df-bb4d-4bcd-904c-17c31e1b34fd",
+      "accountNumber": "ACC-656147",
+      "holderUserId": "5132a509-3c82-44ce-ae66-0652ea0fea86",
+      "createdAt": "2026-09-08T16:41:13.346Z"
+    },
+    {
+      "id": "797b48b0-5cdb-4848-8e22-18ec7fcf6983",
+      "accountNumber": "ACC-447838",
+      "holderUserId": "5a2250c2-e10f-4f73-8b43-85172c4c3bc6",
+      "createdAt": "2026-09-08T16:42:32.981Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "de0b9c4c-2b50-41a4-b0c6-9f1e149d386a",
+      "email": "test-98d6c60e53424d198f61ab924cd05228@example.com",
+      "passwordHash": "$2b$12$wwcgD4BO7bECmoOeFfgITuQ10pDObyhRXeZBDaMOnoCTVtSE.xGoK",
+      "role": "PATIENT",
+      "patientId": "8488597d-76ec-46e2-8c18-2489452c67df"
+    },
+    {
+      "id": "bb66972c-36d0-4a47-85ef-5dfc7319cf8a",
+      "email": "abhii060606@gmail.com",
+      "passwordHash": "$2b$12$f1P3M6aKDhjy2aEUokbmYuysj1z3BC6ohOQUuOiRniWEpTqwqlbMS",
+      "role": "PATIENT",
+      "patientId": "097588cc-7c85-48dd-b659-3c33ed86e49b"
+    },
+    {
+      "id": "2b41a9e9-e20b-45b2-9be1-a87111f3238f",
+      "email": "history-17ec4bbb1fd94601afec3c6cd26d182e@example.com",
+      "passwordHash": "$2b$12$Dmvcd2FtNgHoTj1z9NgU9eP5ehXoh63S6EzZIDZNjVHLyJ5oWUQV2",
+      "role": "PATIENT",
+      "patientId": "e7edee05-8a23-4bf4-b818-68d0e2c2a782"
+    },
+    {
+      "id": "25ae2e66-1b8a-42d4-9950-ea1b89a329ea",
+      "email": "history-90a93f28b4bb4e98aa5e4f1935b9385f@example.com",
+      "passwordHash": "$2b$12$zAe2UySn07Wpn1uAGhiUXOyYMVBPlYmfak3JbCFZ01HFQJgRzYsJS",
+      "role": "PATIENT",
+      "patientId": "efe95892-5d45-45fe-9ee9-356a84cf7dcf"
+    },
+    {
+      "id": "29379ea2-27de-43ae-9225-c3d55a504ab2",
+      "email": "family-86ab63a7592644679a6851a9d344730d@example.com",
+      "passwordHash": "$2b$12$AMSuJDAIeiSvgV7nbFqpReCwIsC20BBii0mOsFepvbq9g6JZC7wnu",
+      "role": "PATIENT",
+      "accountId": "c3d4fd60-5943-469c-ba37-3d1b1c2373aa",
+      "patientId": "8e059208-881a-43b5-b99b-90d0181b722b"
+    },
+    {
+      "id": "f58ab4f2-e92b-4073-8272-a06b26c8268f",
+      "email": "abhii060605@gmail.com",
+      "passwordHash": "$2b$12$qVNoV1jMy7JOZwIDRqgmwOcplPoo2GWZl.uhP6Gzf7KsLMrYr3V6W",
+      "role": "PATIENT",
+      "accountId": "fdd209a5-df15-4529-b5e2-943ae473d0f5",
+      "patientId": "3723f279-99d5-4004-9cff-4cd472ebd8ef"
+    },
+    {
+      "id": "a7dd08cc-1c6c-4dcb-895d-4c7ec0f67fc9",
+      "email": "profile-4ad868387ec1463ca49daa25a931f84c@example.com",
+      "passwordHash": "$2b$12$61IzaxCFWDtuBlvkvItD.u2Av4RwEJ54A1i4Sf3b7pQ4WP2lI0VSy",
+      "role": "PATIENT",
+      "accountId": "e591293b-5265-4830-8d69-23ed94646529",
+      "patientId": "5d618dbe-da17-4824-99ff-939848ab0d94"
+    },
+    {
+      "id": "a059eed2-fbcc-4b42-b652-4744de7cc318",
+      "email": "debug-0092ede36445423dad5fb1951772db01@example.com",
+      "passwordHash": "$2b$12$5kKd/UO7fKk0MwY921XXnezuvk10Dkjvh/RCJUCPqanh7uwB2ltze",
+      "role": "PATIENT",
+      "accountId": "9d1ede89-f23e-4540-b98f-5d868d119ba5",
+      "patientId": "530444e6-5b22-4f14-b5bd-b37cc125a053"
+    },
+    {
+      "id": "407c4d91-2b93-4e28-aea6-ebb449585623",
+      "email": "debug2-f8a503868e354026a71d06a193ed5d45@example.com",
+      "passwordHash": "$2b$12$vO7j99KnXVXq48okUvLAguKKeaIwvu2BCp6DnLz.8I.Yty.hUhHdW",
+      "role": "PATIENT",
+      "accountId": "3f813f39-0e75-47d9-9f12-32b98ba8c6ed",
+      "patientId": "09986894-cb5f-4ec7-89d9-f1e9337e9242"
+    },
+    {
+      "id": "97ec80d5-2f01-4c2a-aa13-8cbe29d10f24",
+      "email": "profile3-0dabbd6010a844c281cffd17a5b75eaa@example.com",
+      "passwordHash": "$2b$12$kzUQXwdPGrDuPgTtp/nCRO2fLLBeSti0NjQzCoPwgcTFz.dlmV/m.",
+      "role": "PATIENT",
+      "accountId": "d931dc48-d04a-4620-81dd-b5cfa755994c",
+      "patientId": "38bf55bd-9e88-4bfb-b28d-b3df3fab257d"
+    },
+    {
+      "id": "5132a509-3c82-44ce-ae66-0652ea0fea86",
+      "email": "phase2-3634f41b2b654ae9a13156049144e65b@example.com",
+      "passwordHash": "$2b$12$GwXpvR4XlwSbFSX3ES4hVOMezzM7g6TMowYJ2ytW6vgEY38jRy/aq",
+      "role": "PATIENT",
+      "accountId": "f2a6f4df-bb4d-4bcd-904c-17c31e1b34fd",
+      "patientId": "2324102e-324c-44ce-aa64-220cf6042f7b"
+    },
+    {
+      "id": "5a2250c2-e10f-4f73-8b43-85172c4c3bc6",
+      "email": "phase2b-d346a8cc682a42489d1d00e08ae71a9e@example.com",
+      "passwordHash": "$2b$12$ZYbQf4jZ2C12SyupPwxZoOpDaLprkn.O2ouJgHT4rJN5c7zGidIJ.",
+      "role": "PATIENT",
+      "accountId": "797b48b0-5cdb-4848-8e22-18ec7fcf6983",
+      "patientId": "fea5a4cd-9707-457e-88b9-18c829b1f97c"
+    }
+  ],
+  "patients": [
+    {
+      "id": "8488597d-76ec-46e2-8c18-2489452c67df",
+      "patientId": "SIH-931507",
+      "userId": "de0b9c4c-2b50-41a4-b0c6-9f1e149d386a",
+      "fullName": "Updated Patient",
+      "createdAt": "2026-09-08T13:50:59.869Z",
+      "updatedAt": "2026-09-08T13:51:00.885Z",
+      "bloodGroup": "O positive",
+      "allergies": "None"
+    },
+    {
+      "id": "097588cc-7c85-48dd-b659-3c33ed86e49b",
+      "patientId": "SIH-425206",
+      "userId": "bb66972c-36d0-4a47-85ef-5dfc7319cf8a",
+      "fullName": "abhi",
+      "createdAt": "2026-09-08T14:01:55.096Z",
+      "updatedAt": "2026-09-08T14:04:42.950Z",
+      "bloodGroup": "b"
+    },
+    {
+      "id": "e7edee05-8a23-4bf4-b818-68d0e2c2a782",
+      "patientId": "SIH-417451",
+      "userId": "2b41a9e9-e20b-45b2-9be1-a87111f3238f",
+      "fullName": "History Test",
+      "createdAt": "2026-09-08T14:12:08.201Z",
+      "updatedAt": "2026-09-08T14:12:08.201Z"
+    },
+    {
+      "id": "efe95892-5d45-45fe-9ee9-356a84cf7dcf",
+      "patientId": "SIH-322366",
+      "userId": "25ae2e66-1b8a-42d4-9950-ea1b89a329ea",
+      "fullName": "History Test",
+      "createdAt": "2026-09-08T14:14:50.340Z",
+      "updatedAt": "2026-09-08T14:14:50.340Z"
+    },
+    {
+      "id": "8e059208-881a-43b5-b99b-90d0181b722b",
+      "patientId": "SIH-910694",
+      "userId": "29379ea2-27de-43ae-9225-c3d55a504ab2",
+      "accountId": "c3d4fd60-5943-469c-ba37-3d1b1c2373aa",
+      "relationship": "Self",
+      "qrReference": "QR-a348f292-6cb3-4f72-8259-4020868f0fce",
+      "fullName": "Abhishek Sharma",
+      "phone": "9999999999",
+      "createdAt": "2026-09-08T14:48:01.110Z",
+      "updatedAt": "2026-09-08T14:48:01.110Z"
+    },
+    {
+      "id": "975c35c9-e76f-4b62-9849-dc13296e7fe8",
+      "patientId": "SIH-289054",
+      "userId": "29379ea2-27de-43ae-9225-c3d55a504ab2",
+      "accountId": "c3d4fd60-5943-469c-ba37-3d1b1c2373aa",
+      "relationship": "Mother",
+      "qrReference": "QR-0edb39c3-5ef6-4c85-b996-2343af3ef9cb",
+      "fullName": "Mother Sharma",
+      "dateOfBirth": "",
+      "gender": "Female",
+      "phone": "",
+      "createdAt": "2026-09-08T14:48:03.133Z",
+      "updatedAt": "2026-09-08T14:48:03.133Z"
+    },
+    {
+      "id": "b344eaed-dd2c-425f-8e8c-7a46fcae6a5d",
+      "patientId": "SIH-972133",
+      "userId": "29379ea2-27de-43ae-9225-c3d55a504ab2",
+      "accountId": "c3d4fd60-5943-469c-ba37-3d1b1c2373aa",
+      "relationship": "Father",
+      "qrReference": "QR-0607a113-e759-4190-9783-5b6922bdba02",
+      "fullName": "Father Sharma",
+      "dateOfBirth": "",
+      "gender": "Male",
+      "phone": "",
+      "createdAt": "2026-09-08T14:48:03.291Z",
+      "updatedAt": "2026-09-08T14:48:03.291Z"
+    },
+    {
+      "id": "3723f279-99d5-4004-9cff-4cd472ebd8ef",
+      "patientId": "SIH-471595",
+      "userId": "f58ab4f2-e92b-4073-8272-a06b26c8268f",
+      "accountId": "fdd209a5-df15-4529-b5e2-943ae473d0f5",
+      "relationship": "Self",
+      "qrReference": "QR-75f2126e-7095-4e32-a261-4799c2790b5e",
+      "fullName": "Abhi",
+      "phone": "8929061424",
+      "createdAt": "2026-09-08T14:51:13.431Z",
+      "updatedAt": "2026-09-09T02:55:34.384Z",
+      "bloodGroup": "b"
+    },
+    {
+      "id": "8b4dd2e8-e7ed-4a3b-a240-81b98a4e08ee",
+      "patientId": "SIH-621599",
+      "userId": "f58ab4f2-e92b-4073-8272-a06b26c8268f",
+      "accountId": "fdd209a5-df15-4529-b5e2-943ae473d0f5",
+      "relationship": "Father",
+      "qrReference": "QR-eea387aa-38f4-40ec-be80-c5dd4562194f",
+      "fullName": "apil",
+      "dateOfBirth": "1976-02-01",
+      "gender": "male",
+      "phone": "",
+      "createdAt": "2026-09-08T14:53:16.415Z",
+      "updatedAt": "2026-09-08T14:53:16.415Z"
+    },
+    {
+      "id": "5d618dbe-da17-4824-99ff-939848ab0d94",
+      "patientId": "SIH-163318",
+      "userId": "a7dd08cc-1c6c-4dcb-895d-4c7ec0f67fc9",
+      "accountId": "e591293b-5265-4830-8d69-23ed94646529",
+      "relationship": "Self",
+      "qrReference": "QR-bd6381c3-aa65-4854-bccd-650ebaf80827",
+      "fullName": "Self Patient",
+      "phone": "9000000001",
+      "createdAt": "2026-09-08T16:03:07.821Z",
+      "updatedAt": "2026-09-08T16:03:07.821Z"
+    },
+    {
+      "id": "f97e97fa-286b-43e6-bb91-47834ec764be",
+      "patientId": "SIH-433906",
+      "userId": "a7dd08cc-1c6c-4dcb-895d-4c7ec0f67fc9",
+      "accountId": "e591293b-5265-4830-8d69-23ed94646529",
+      "relationship": "Mother",
+      "qrReference": "QR-c2f15c8f-9330-4b54-a2cc-8e04db33b9d7",
+      "fullName": "Mother Patient",
+      "dateOfBirth": "",
+      "gender": "",
+      "phone": "",
+      "createdAt": "2026-09-08T16:03:08.335Z",
+      "updatedAt": "2026-09-08T16:03:08.335Z"
+    },
+    {
+      "id": "2dad1a1c-9201-4e73-a7e9-82afa2bd4a26",
+      "patientId": "SIH-525172",
+      "userId": "a7dd08cc-1c6c-4dcb-895d-4c7ec0f67fc9",
+      "accountId": "e591293b-5265-4830-8d69-23ed94646529",
+      "relationship": "Father",
+      "qrReference": "QR-2f93e69f-174e-4223-8b6b-8be09f654f41",
+      "fullName": "Father Patient",
+      "dateOfBirth": "",
+      "gender": "",
+      "phone": "",
+      "createdAt": "2026-09-08T16:03:08.728Z",
+      "updatedAt": "2026-09-08T16:03:08.728Z"
+    },
+    {
+      "id": "530444e6-5b22-4f14-b5bd-b37cc125a053",
+      "patientId": "SIH-842076",
+      "userId": "a059eed2-fbcc-4b42-b652-4744de7cc318",
+      "accountId": "9d1ede89-f23e-4540-b98f-5d868d119ba5",
+      "relationship": "Self",
+      "qrReference": "QR-2072aa8c-dc29-441b-b9a3-c27dddc41b8c",
+      "fullName": "Debug Self",
+      "phone": "",
+      "createdAt": "2026-09-08T16:03:22.696Z",
+      "updatedAt": "2026-09-08T16:03:22.696Z"
+    },
+    {
+      "id": "795c42f0-f952-463a-8c99-31e280b59c69",
+      "patientId": "SIH-778268",
+      "userId": "a059eed2-fbcc-4b42-b652-4744de7cc318",
+      "accountId": "9d1ede89-f23e-4540-b98f-5d868d119ba5",
+      "relationship": "Mother",
+      "qrReference": "QR-b2fcb414-ef06-4637-85a0-0d832238ba2d",
+      "fullName": "Debug Mother",
+      "dateOfBirth": "",
+      "gender": "",
+      "phone": "",
+      "createdAt": "2026-09-08T16:03:22.983Z",
+      "updatedAt": "2026-09-08T16:03:22.983Z"
+    },
+    {
+      "id": "09986894-cb5f-4ec7-89d9-f1e9337e9242",
+      "patientId": "SIH-605042",
+      "userId": "407c4d91-2b93-4e28-aea6-ebb449585623",
+      "accountId": "3f813f39-0e75-47d9-9f12-32b98ba8c6ed",
+      "relationship": "Self",
+      "qrReference": "QR-c0585766-4a89-4dda-b56b-e745090512b7",
+      "fullName": "Debug Self",
+      "phone": "",
+      "createdAt": "2026-09-08T16:03:33.188Z",
+      "updatedAt": "2026-09-08T16:03:33.188Z"
+    },
+    {
+      "id": "ffda1113-c647-4d49-ab53-84f4f3d3f1d3",
+      "patientId": "SIH-224704",
+      "userId": "407c4d91-2b93-4e28-aea6-ebb449585623",
+      "accountId": "3f813f39-0e75-47d9-9f12-32b98ba8c6ed",
+      "relationship": "Mother",
+      "qrReference": "QR-14f7611d-bf7f-43eb-88e2-4f3ef5c04fef",
+      "fullName": "Debug Mother",
+      "dateOfBirth": "",
+      "gender": "",
+      "phone": "",
+      "createdAt": "2026-09-08T16:03:33.325Z",
+      "updatedAt": "2026-09-08T16:03:33.325Z"
+    },
+    {
+      "id": "38bf55bd-9e88-4bfb-b28d-b3df3fab257d",
+      "patientId": "SIH-744168",
+      "userId": "97ec80d5-2f01-4c2a-aa13-8cbe29d10f24",
+      "accountId": "d931dc48-d04a-4620-81dd-b5cfa755994c",
+      "relationship": "Self",
+      "qrReference": "QR-7c3975ec-0f59-434f-982d-7406e8f7357b",
+      "fullName": "Self Patient",
+      "phone": "9000000001",
+      "createdAt": "2026-09-08T16:03:49.836Z",
+      "updatedAt": "2026-09-08T16:03:49.836Z"
+    },
+    {
+      "id": "3ed42f78-a28e-417d-bb0e-1e4e6277337d",
+      "patientId": "SIH-920819",
+      "userId": "97ec80d5-2f01-4c2a-aa13-8cbe29d10f24",
+      "accountId": "d931dc48-d04a-4620-81dd-b5cfa755994c",
+      "relationship": "Mother",
+      "qrReference": "QR-b6726d81-9b2c-4049-be21-5935883d6a96",
+      "fullName": "Mother Patient",
+      "dateOfBirth": "",
+      "gender": "",
+      "phone": "",
+      "createdAt": "2026-09-08T16:03:50.060Z",
+      "updatedAt": "2026-09-08T16:03:50.060Z"
+    },
+    {
+      "id": "f2fcdd96-c890-4a42-a69b-164415b80a90",
+      "patientId": "SIH-513467",
+      "userId": "97ec80d5-2f01-4c2a-aa13-8cbe29d10f24",
+      "accountId": "d931dc48-d04a-4620-81dd-b5cfa755994c",
+      "relationship": "Father",
+      "qrReference": "QR-c1cb003c-cb10-43b9-94bd-60fe8b7f8ab3",
+      "fullName": "Father Patient",
+      "dateOfBirth": "",
+      "gender": "",
+      "phone": "",
+      "createdAt": "2026-09-08T16:03:50.165Z",
+      "updatedAt": "2026-09-08T16:03:50.165Z"
+    },
+    {
+      "id": "2324102e-324c-44ce-aa64-220cf6042f7b",
+      "patientId": "SIH-444839",
+      "userId": "5132a509-3c82-44ce-ae66-0652ea0fea86",
+      "accountId": "f2a6f4df-bb4d-4bcd-904c-17c31e1b34fd",
+      "relationship": "Self",
+      "qrReference": "QR-8ed9358a-02dc-45b6-affe-12d04f2a86ed",
+      "fullName": "Phase Two Self",
+      "phone": "",
+      "createdAt": "2026-09-08T16:41:13.346Z",
+      "updatedAt": "2026-09-08T16:41:13.346Z"
+    },
+    {
+      "id": "fea5a4cd-9707-457e-88b9-18c829b1f97c",
+      "patientId": "SIH-205086",
+      "userId": "5a2250c2-e10f-4f73-8b43-85172c4c3bc6",
+      "accountId": "797b48b0-5cdb-4848-8e22-18ec7fcf6983",
+      "relationship": "Self",
+      "qrReference": "QR-7881425e-253f-445f-8d6c-faaa48be25ce",
+      "fullName": "Phase Two Self",
+      "phone": "",
+      "createdAt": "2026-09-08T16:42:32.981Z",
+      "updatedAt": "2026-09-08T16:42:32.981Z"
+    },
+    {
+      "id": "1131c66d-a299-4bd2-b8de-efc212e1c0da",
+      "patientId": "SIH-398708",
+      "userId": "5a2250c2-e10f-4f73-8b43-85172c4c3bc6",
+      "accountId": "797b48b0-5cdb-4848-8e22-18ec7fcf6983",
+      "relationship": "Mother",
+      "qrReference": "QR-d8944d7c-63ea-4a45-a1f3-40655195305b",
+      "fullName": "Phase Two Mother",
+      "dateOfBirth": "",
+      "gender": "",
+      "phone": "",
+      "createdAt": "2026-09-08T16:42:33.845Z",
+      "updatedAt": "2026-09-08T16:42:33.845Z"
+    }
+  ],
+  "histories": [
+    {
+      "id": "cec2f93e-0de6-4dfd-bfcf-1d4379148504",
+      "patientId": "8488597d-76ec-46e2-8c18-2489452c67df",
+      "type": "Condition",
+      "title": "Test entry",
+      "description": "Persisted test",
+      "eventDate": "",
+      "createdAt": "2026-09-08T13:51:01.560Z"
+    },
+    {
+      "id": "54a04c6f-e1e2-403b-91e0-1d5b4dca4b76",
+      "patientId": "097588cc-7c85-48dd-b659-3c33ed86e49b",
+      "type": "Hospitalization",
+      "title": "ygl",
+      "description": "uefgejsk",
+      "eventDate": "2026-09-03",
+      "attachment": {
+        "storedName": "f25da595-d16b-4ce8-b314-6e749bda08a7.pdf",
+        "fileName": "lal report.pdf",
+        "mimeType": "application/pdf",
+        "size": 3703913
+      },
+      "createdAt": "2026-09-08T14:16:41.892Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "8198a2fe-f86c-446a-aaab-e05ae3591af1",
+      "patientId": "097588cc-7c85-48dd-b659-3c33ed86e49b",
+      "category": "OTHER",
+      "fileName": "lal report.pdf",
+      "storedName": "8198a2fe-f86c-446a-aaab-e05ae3591af1.pdf",
+      "mimeType": "application/pdf",
+      "size": 3703913,
+      "createdAt": "2026-09-08T14:02:34.959Z"
+    },
+    {
+      "id": "34cdfc57-22aa-4e02-96b4-05f515c6996b",
+      "patientId": "097588cc-7c85-48dd-b659-3c33ed86e49b",
+      "category": "LAB_REPORT",
+      "fileName": "lal report.pdf",
+      "storedName": "34cdfc57-22aa-4e02-96b4-05f515c6996b.pdf",
+      "mimeType": "application/pdf",
+      "size": 3703913,
+      "createdAt": "2026-09-08T14:03:53.047Z"
+    },
+    {
+      "id": "75f3ab41-05f3-4500-b280-d6b2a21f7add",
+      "patientId": "097588cc-7c85-48dd-b659-3c33ed86e49b",
+      "category": "PRESCRIPTION",
+      "fileName": "Complete_Blood_Count_Report.pdf",
+      "storedName": "75f3ab41-05f3-4500-b280-d6b2a21f7add.pdf",
+      "mimeType": "application/pdf",
+      "size": 293,
+      "createdAt": "2026-09-08T14:04:02.113Z"
+    },
+    {
+      "id": "20d74897-c7ca-4350-9c29-ab797d260a85",
+      "patientId": "8b4dd2e8-e7ed-4a3b-a240-81b98a4e08ee",
+      "category": "OTHER",
+      "fileName": "Complete_Blood_Count_Report.pdf",
+      "storedName": "20d74897-c7ca-4350-9c29-ab797d260a85.pdf",
+      "mimeType": "application/pdf",
+      "size": 293,
+      "createdAt": "2026-09-08T14:58:43.619Z"
+    },
+    {
+      "id": "81c94ee5-3717-4aa8-a300-e89fb93faeec",
+      "patientId": "3723f279-99d5-4004-9cff-4cd472ebd8ef",
+      "category": "LAB_REPORT",
+      "fileName": "lal report.pdf",
+      "storedName": "81c94ee5-3717-4aa8-a300-e89fb93faeec.pdf",
+      "mimeType": "application/pdf",
+      "size": 3703913,
+      "createdAt": "2026-09-08T15:01:10.642Z"
+    },
+    {
+      "id": "cf1b6599-fd9e-42f1-bb12-3c3a0f683427",
+      "patientId": "3723f279-99d5-4004-9cff-4cd472ebd8ef",
+      "category": "OTHER",
+      "fileName": "lal report.pdf",
+      "storedName": "cf1b6599-fd9e-42f1-bb12-3c3a0f683427.pdf",
+      "mimeType": "application/pdf",
+      "size": 3703913,
+      "createdAt": "2026-09-10T10:15:34.325Z"
+    }
+  ],
+  "readings": [
+    {
+      "id": "0eaf2f00-5304-449b-add3-97862010e9aa",
+      "patientId": "fea5a4cd-9707-457e-88b9-18c829b1f97c",
+      "kind": "sugar",
+      "date": "2026-09-08",
+      "time": "08:00",
+      "value": 110,
+      "mealContext": "Before meal",
+      "createdAt": "2026-09-08T16:42:33.592Z"
+    },
+    {
+      "id": "2eadcb01-b6fb-40c3-ada7-848a5e9befe3",
+      "patientId": "3723f279-99d5-4004-9cff-4cd472ebd8ef",
+      "kind": "sugar",
+      "date": "2026-09-01",
+      "time": "09:01",
+      "value": 108,
+      "mealContext": "Before meal",
+      "unit": "mg/dL",
+      "createdAt": "2026-09-08T16:45:18.000Z"
+    },
+    {
+      "id": "9f39e715-5e96-4b76-a879-81071ae05474",
+      "patientId": "3723f279-99d5-4004-9cff-4cd472ebd8ef",
+      "kind": "sugar",
+      "date": "2026-09-01",
+      "time": "09:28",
+      "value": 180,
+      "mealContext": "After meal",
+      "unit": "mg/dL",
+      "createdAt": "2026-09-08T16:45:50.898Z"
+    },
+    {
+      "id": "118c9005-9c42-446c-b86d-958f3146c82f",
+      "patientId": "3723f279-99d5-4004-9cff-4cd472ebd8ef",
+      "kind": "sugar",
+      "date": "2026-09-03",
+      "time": "09:02",
+      "value": 120,
+      "mealContext": "Before meal",
+      "unit": "mg/dL",
+      "createdAt": "2026-09-08T16:46:42.701Z"
+    }
+  ],
+  "medicines": [
+    {
+      "id": "d0f53d9e-4d1a-40c3-ac60-5182ede4b9fd",
+      "patientId": "1131c66d-a299-4bd2-b8de-efc212e1c0da",
+      "name": "Test medicine",
+      "dosage": "500 mg",
+      "frequency": "Once daily",
+      "startDate": "2026-09-08",
+      "endDate": "",
+      "instructions": "",
+      "createdAt": "2026-09-08T16:42:34.212Z",
+      "updatedAt": "2026-09-08T16:42:34.212Z"
+    }
+  ],
+  "preConsultationSummaries": [
+    {
+      "id": "c03c18f8-1e95-433c-83ea-78b098ce627f",
+      "patientId": "8b4dd2e8-e7ed-4a3b-a240-81b98a4e08ee",
+      "summary": "Main problem: Fever (102°F)\nSymptoms: Fever, throat pain, headache\nDuration: 2 days (symptoms started together with fever)\nSeverity: Fever measured at 102°F; no medication taken yet\nOther symptoms: No cough, cold, or body ache reported\nExisting conditions: Not captured\nCurrent medicines: None taken\nAllergies: Not captured",
+      "conversation": [
+        "Hello",
+        "Assistant: Hello! I'm here to help organize information before your medical consultation. To get started, could you tell me the main reason you're seeking care today—what symptoms or concerns brought you here?",
+        "mujhe 2 din se fever hai",
+        "Assistant: नमस्ते! आपने बताया कि 2 दिन से बुखार है। क्या आपको बुखार के साथ कोई और लक्षण भी हैं, जैसे खांसी, गले में खराश, सिरदर्द, या शरीर में दर्द?",
+        "talk in hindi",
+        "Assistant: ठीक है, हम हिंदी में बात करेंगे। आपने बताया कि 2 दिन से बुखार है। क्या आपने अपना तापमान मापा है?",
+        "talk in hinglish",
+        "Assistant: Theek hai, ab hum Hinglish mein baat karenge. Aapne bataya ki 2 din se bukhar hai. Kya aapne apna temperature check kiya hai? Agar haan, toh kitna aaya tha?",
+        "102 h ai",
+        "Assistant: Theek hai, 102°F bukhar hai. Kya aapne iske liye koi dawai li hai? Agar haan, toh kaunsi dawai aur kitni baar li?",
+        "nahi li dawai koi",
+        "Assistant: Theek hai, aapne koi dawai nahi li. Kya aapko bukhar ke alawa koi aur symptom hai, jaise khansi, gale mein kharaash, sar dard, ya body mein dard?",
+        "gala dard sar dard bs",
+        "Assistant: Theek hai, gale mein dard aur sar dard kitne din se hai? Kya yeh bhi bukhar ke saath shuru hua tha?",
+        "han",
+        "Assistant: ```json\n{\n  \"reply\": \"Achha, toh gala dard aur sar dard bukhar ke saath hi shuru hua hai. Kya gale mein dard itna zyada hai ki aapko kuch niglne mein takleef ho rahi hai?\",\n  \"summary\": \"Patient reports fever (102°F) for 2 days, accompanied by throat pain and headache that started with the fever. No medication taken yet. No other symptoms mentioned (cough, cold, body ache).\"\n}\n```"
+      ],
+      "createdAt": "2026-09-09T18:44:32.940Z"
+    },
+    {
+      "id": "3d24bee8-46f0-4d71-8ef2-0247f3820842",
+      "patientId": "8b4dd2e8-e7ed-4a3b-a240-81b98a4e08ee",
+      "summary": "Main problem: Fever (102°F)\nSymptoms: Fever, throat pain, headache\nDuration: 2 days (throat pain and headache started along with the fever)\nSeverity: Fever measured at 102°F; no medication taken yet\nOther symptoms: No cough, cold, or body ache reported\nExisting conditions: Not captured\nCurrent medicines: None taken\nAllergies: Not captured",
+      "conversation": [
+        "Hello",
+        "Assistant: Hello! I'm here to help organize information before your medical consultation. To get started, could you tell me the main reason you're seeking care today—what symptoms or concerns brought you here?",
+        "mujhe 2 din se fever hai",
+        "Assistant: नमस्ते! आपने बताया कि 2 दिन से बुखार है। क्या आपको बुखार के साथ कोई और लक्षण भी हैं, जैसे खांसी, गले में खराश, सिरदर्द, या शरीर में दर्द?",
+        "talk in hindi",
+        "Assistant: ठीक है, हम हिंदी में बात करेंगे। आपने बताया कि 2 दिन से बुखार है। क्या आपने अपना तापमान मापा है?",
+        "talk in hinglish",
+        "Assistant: Theek hai, ab hum Hinglish mein baat karenge. Aapne bataya ki 2 din se bukhar hai. Kya aapne apna temperature check kiya hai? Agar haan, toh kitna aaya tha?",
+        "102 h ai",
+        "Assistant: Theek hai, 102°F bukhar hai. Kya aapne iske liye koi dawai li hai? Agar haan, toh kaunsi dawai aur kitni baar li?",
+        "nahi li dawai koi",
+        "Assistant: Theek hai, aapne koi dawai nahi li. Kya aapko bukhar ke alawa koi aur symptom hai, jaise khansi, gale mein kharaash, sar dard, ya body mein dard?",
+        "gala dard sar dard bs",
+        "Assistant: Theek hai, gale mein dard aur sar dard kitne din se hai? Kya yeh bhi bukhar ke saath shuru hua tha?",
+        "han",
+        "Assistant: ```json\n{\n  \"reply\": \"Achha, toh gala dard aur sar dard bukhar ke saath hi shuru hua hai. Kya gale mein dard itna zyada hai ki aapko kuch niglne mein takleef ho rahi hai?\",\n  \"summary\": \"Patient reports fever (102°F) for 2 days, accompanied by throat pain and headache that started with the fever. No medication taken yet. No other symptoms mentioned (cough, cold, body ache).\"\n}\n```",
+        "Main problem: Fever (102°F)\nSymptoms: Fever, throat pain, headache\nDuration: 2 days (symptoms started together with fever)\nSeverity: Fever measured at 102°F; no medication taken yet\nOther symptoms: No cough, cold, or body ache reported\nExisting conditions: Not captured\nCurrent medicines: None taken\nAllergies: Not captured"
+      ],
+      "createdAt": "2026-09-09T18:51:15.009Z"
+    },
+    {
+      "id": "9d76e4e4-b3a3-4555-9f41-bb26c20fb345",
+      "patientId": "8b4dd2e8-e7ed-4a3b-a240-81b98a4e08ee",
+      "summary": "Main problem: Fever (102°F)\nSymptoms: Fever, throat pain, headache\nDuration: 2 days (throat pain and headache started along with the fever)\nSeverity: Fever measured at 102°F; no medication taken yet\nOther symptoms: No cough, cold, or body ache reported\nExisting conditions: Not captured\nCurrent medicines: None taken\nAllergies: Not captured",
+      "conversation": [
+        "Hello",
+        "Assistant: Hello! I'm here to help organize information before your medical consultation. To get started, could you tell me the main reason you're seeking care today—what symptoms or concerns brought you here?",
+        "mujhe 2 din se fever hai",
+        "Assistant: नमस्ते! आपने बताया कि 2 दिन से बुखार है। क्या आपको बुखार के साथ कोई और लक्षण भी हैं, जैसे खांसी, गले में खराश, सिरदर्द, या शरीर में दर्द?",
+        "talk in hindi",
+        "Assistant: ठीक है, हम हिंदी में बात करेंगे। आपने बताया कि 2 दिन से बुखार है। क्या आपने अपना तापमान मापा है?",
+        "talk in hinglish",
+        "Assistant: Theek hai, ab hum Hinglish mein baat karenge. Aapne bataya ki 2 din se bukhar hai. Kya aapne apna temperature check kiya hai? Agar haan, toh kitna aaya tha?",
+        "102 h ai",
+        "Assistant: Theek hai, 102°F bukhar hai. Kya aapne iske liye koi dawai li hai? Agar haan, toh kaunsi dawai aur kitni baar li?",
+        "nahi li dawai koi",
+        "Assistant: Theek hai, aapne koi dawai nahi li. Kya aapko bukhar ke alawa koi aur symptom hai, jaise khansi, gale mein kharaash, sar dard, ya body mein dard?",
+        "gala dard sar dard bs",
+        "Assistant: Theek hai, gale mein dard aur sar dard kitne din se hai? Kya yeh bhi bukhar ke saath shuru hua tha?",
+        "han",
+        "Assistant: ```json\n{\n  \"reply\": \"Achha, toh gala dard aur sar dard bukhar ke saath hi shuru hua hai. Kya gale mein dard itna zyada hai ki aapko kuch niglne mein takleef ho rahi hai?\",\n  \"summary\": \"Patient reports fever (102°F) for 2 days, accompanied by throat pain and headache that started with the fever. No medication taken yet. No other symptoms mentioned (cough, cold, body ache).\"\n}\n```",
+        "Main problem: Fever (102°F)\nSymptoms: Fever, throat pain, headache\nDuration: 2 days (symptoms started together with fever)\nSeverity: Fever measured at 102°F; no medication taken yet\nOther symptoms: No cough, cold, or body ache reported\nExisting conditions: Not captured\nCurrent medicines: None taken\nAllergies: Not captured"
+      ],
+      "createdAt": "2026-09-09T18:51:15.426Z"
+    }
+  ]
+}
